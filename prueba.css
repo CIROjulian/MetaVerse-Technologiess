@@ -185,18 +185,7 @@ main{
     background-color: var(--clr-main);
     color: var(--clr-white);
 } 
-img {
-    width: 280px; /* Ancho deseado */
-    height: 250px; /* Altura deseada */
-}
-#uno{
-    width: 100; /* Ancho deseado */
-    height: 100px; /* Altura deseada */
-}
-#dos{
-    width: 100; /* Ancho deseado */
-    height: 100px; /* Altura deseada */
-}
+
 /** CARRITO **/
 
 .contenedor-carrito {
