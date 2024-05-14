@@ -273,55 +273,98 @@ const productos = [
         },
         precio: 1000
     },
-    // Pantalones
-//raton
+    //  melos
     {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "grafica.jpeg",
+        id: "base-01",
+        titulo: "base 01",
+        imagen: "computadores\\accesorios\\base\\base 01.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "bases",
+            id: "base"
         },
         precio: 1000
     },
     {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "grafica.jpeg",
+        id: "base-02",
+        titulo: "base 02",
+        imagen: "computadores\\accesorios\\base 02\\bas 01.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "bases",
+            id: "base"
         },
         precio: 1000
     },
     {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "grafica.jpeg",
+        id: "base-03",
+        titulo: "base 03",
+        imagen: "computadores\\accesorios\\base 03\\ba.01.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "bases",
+            id: "base"
+        },
+        precio: 1000
+    },
+    //controles
+    {
+        id: "control-01",
+        titulo: "control-01",
+        imagen: "computadores\\accesorios\\control celular\\con 01.jpg",
+        categoria: {
+            nombre: "controles",
+            id: "controles"
+        },
+        precio: 1000
+    },
+
+    {
+        id: "control-02",
+        titulo: "control 02",
+        imagen: "computadores\\accesorios\\control switch\\swi 01.jpg",
+        categoria: {
+            nombre: "controles",
+            id: "controles"
         },
         precio: 1000
     },
     {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "grafica.jpeg",
+        id: "control-03",
+        titulo: "control 03",
+        imagen: "computadores\\accesorios\\controles\\control 01.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "controles",
+            id: "controles"
         },
         precio: 1000
     },
+    // microfonos
+    {
+        id: "microfono-01",
+        titulo: "microfono 01",
+        imagen: "computadores\\accesorios\\microfono\\micro 01.jpg",
+        categoria: {
+            nombre: "microfonos",
+            id: "microfonos"
+        },
+        precio: 1000
+    },
+    {
+        id: "microfono-02",
+        titulo: "microfono 02",
+        imagen: "computadores\\accesorios\\micro 02\\micro.02.jpg",
+        categoria: {
+            nombre: "microfonos",
+            id: "microfonos"
+        },
+        precio: 1000
+    },
+    // volante
     {
         id: "pantalon-05",
         titulo: "Pantalón 05",
-        imagen: "grafica.jpeg",
+        imagen: "computadores\\accesorios\\volante\\vola 01.jpg",
         categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "volante",
+            id: "volante"
         },
         precio: 1000
     }
