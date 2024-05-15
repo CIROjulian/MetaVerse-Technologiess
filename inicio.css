@@ -1,59 +1,68 @@
-
 header {
-     background-color: #333;
-     /* Color de fondo */
-     color: #fff;
-     /* Color del texto */
-     padding: 15px;
-     /* Espacio interior */
-     position: fixed;
-     /* Fija la posición */
-     width: 100%;
-     /* Ancho completo */
-     top: 0;
-     /* Ajusta la posición superior */
-     z-index: 1000;
-     /* Coloca por encima de otros elementos */
- }
-
- /* Estilo para el contenido debajo del header */
- body {
-     margin-top: 60px;
-     /* Espacio para evitar que el contenido se superponga con el header */
- }
-
- /* Estilo para los enlaces del menú */
- nav ul {
-     margin: 0;
-     padding: 5;
-     list-style-type: none;
- }
-
- nav ul li {
-     display: inline;
-     margin-right: 20px;
-     
- }
-
- nav ul li a {
-     color: #fff;
-     text-decoration: none;
- }
- img {
-    width: 200px; /* Ancho deseado */
-    height: 500px; /* Altura deseada */
+    background-color: #333;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    padding: 15px;
+    /* Espacio interior */
+    position: fixed;
+    /* Fija la posición */
+    width: 100%;
+    /* Ancho completo */
+    top: 0;
+    /* Ajusta la posición superior */
+    z-index: 1000;
+    /* Coloca por encima de otros elementos */
 }
+
+/* Estilo para el contenido debajo del header */
+body {
+    margin-top: 20px;
+    /* Espacio para evitar que el contenido se superponga con el header */
+}
+
+/* Estilo para los enlaces del menú */
+nav ul {
+    margin: 0;
+    padding: 5;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    /* Ancho deseado */
+    height: 500px;
+    /* Altura deseada */
+}
+
 #pc {
-    width: 650px; /* Ancho deseado */
-    height: auto; /* Altura ajustada automáticamente */
-    animation: bounce 2s infinite; /* Animación de rebote */
+    width: 650px;
+    /* Ancho deseado */
+    height: auto;
+    /* Altura ajustada automáticamente */
+    animation: bounce 2s infinite;
+    /* Animación de rebote */
 }
 
 /* Definición de la animación de rebote */
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-30px);
     }
