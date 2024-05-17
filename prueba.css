@@ -108,7 +108,7 @@ aside{ /* Corrección: Cambiado "anside" por "aside" */
 }
 
 .boton-carrito {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .numerito {
@@ -272,10 +272,6 @@ main{
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-}
-
-.header-mobile {
-    display: none;
 }
 
 .close-menu {
