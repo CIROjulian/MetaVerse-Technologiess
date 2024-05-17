@@ -302,7 +302,7 @@ const productos = [
     {
         id: "teclado-02",
         titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista",
-        imagen: "computadores\\teclado\\PRIMUS\\primus 01.jpg",
+        imagen: "computadores\\teclado\\primus\\primus 01.jpg",
         categoria: {
             nombre: "teclados",
             id: "teclados",
