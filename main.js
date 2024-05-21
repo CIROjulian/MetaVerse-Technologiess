@@ -65,7 +65,7 @@ const productos = [
     },
     {
         id: "computador-05",
-        titulo: "portatil ASUS Zenbook intel core i5 8GB disco SSD 512GB",
+        titulo: "portatil ASUS Zenbook intel core i5 - 8GB - disco SSD 512GB",
         imagen: "computadores/asus/asus_zenbook/asus_z01.jpg",
         categoria: {
             nombre: "computadores",
@@ -301,8 +301,8 @@ const productos = [
     },
     {
         id: "teclado-02",
-        titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista",
-        imagen: "computadores\\teclado\\primus\\primus 01.jpg",
+        titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista Negro",
+        imagen: "computadores\\teclado\\PRIMUS\\primus 01.jpg",
         categoria: {
             nombre: "teclados",
             id: "teclados",
@@ -329,7 +329,7 @@ const productos = [
     },
     {
         id: "audifonos-02",
-        titulo: "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie",
+        titulo: "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie X|S",
         imagen: "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
         categoria: {
             nombre: "audifonos",
@@ -374,7 +374,7 @@ const productos = [
     },
     {
         id: "combos-02",
-        titulo: "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT",
+        titulo: "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT 838",
         imagen: "computadores\\combo gamer\\combo trust\\trust 01.jpg",
         categoria: {
             nombre: "combos",
@@ -509,6 +509,47 @@ const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
 
+document.addEventListener("DOMContentLoaded", function() {
+    const contenedorProductosTres = document.getElementById("contenedor-productos-tres");
+
+    // Obtener solo los primeros tres productos
+    const primerosTresProductos = productos.slice(0, 3);
+
+    // Iterar sobre los primeros tres productos
+    primerosTresProductos.forEach(function(producto) {
+        // Crear elementos HTML para mostrar el producto
+        const productoDiv = document.createElement("div");
+        productoDiv.classList.add("col-md-4", "mb-4", "text-center");
+
+        const imagen = document.createElement("img");
+        imagen.src = producto.imagen;
+        imagen.classList.add("img-fluid", "rounded");
+        imagen.alt = producto.titulo;
+
+        const nombreProducto = document.createElement("h3");
+        nombreProducto.textContent = producto.titulo;
+
+        const precioProducto = document.createElement("p");
+        precioProducto.textContent = "Precio: $" + producto.precio.toFixed(2);
+
+        const botonAgregar = document.createElement("button");
+        botonAgregar.classList.add("producto-agregar", "btn", "btn-primary");
+        botonAgregar.id = producto.id;
+        botonAgregar.textContent = "Agregar";
+
+        // Agregar el evento de clic al botón que llama a la función agregarAlCarrito
+        botonAgregar.addEventListener("click", agregarAlCarrito);
+
+        // Agregar elementos al contenedor de productos
+        productoDiv.appendChild(imagen);
+        productoDiv.appendChild(nombreProducto);
+        productoDiv.appendChild(precioProducto);
+        productoDiv.appendChild(botonAgregar);
+
+        contenedorProductosTres.appendChild(productoDiv);
+    });
+});
+
 function cargarProductos(productosElegidos) {
 
     contenedorProductos.innerHTML = "";
@@ -530,7 +571,6 @@ function cargarProductos(productosElegidos) {
     })
     actualizarBotonesAgregar();
 }
-
 cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {

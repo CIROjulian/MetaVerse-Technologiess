@@ -1,24 +1,100 @@
+:root {
+    --uno: #007BFF;
+    --dos: #FF0000;
+    --tres: #FFA500;
+    --cuatro: #333333;
+    --cinco: #120f75;
+    --seis: #2a217f;
+    --siete: #4835a3;
+    --ocho: #7469c0;
+    --nueve: #a2a0d7;
+    --dies: #d0cdee;
+    --negro: #1e1e1e;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    background-color: #000000 !important;
+    /* Negro */
+}
+
+footer h4 {
+    color: var(--dies);
+    /* Blanco */
+}
+
+footer h3 {
+    color: var(--dos);
+}
+
+footer p {
+    color: white;
+}
+
 header {
     background-color: #333;
-    /* Color de fondo */
+
     color: #fff;
-    /* Color del texto */
     padding: 15px;
-    /* Espacio interior */
     position: fixed;
-    /* Fija la posición */
     width: 100%;
-    /* Ancho completo */
     top: 0;
-    /* Ajusta la posición superior */
     z-index: 1000;
-    /* Coloca por encima de otros elementos */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
 /* Estilo para el contenido debajo del header */
 body {
     margin-top: 20px;
-    /* Espacio para evitar que el contenido se superponga con el header */
+    border-radius: 100px;
+    background-image: url('perro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#p {
+    color: #ffffff;
+    /* Color del texto del encabezado */
+    font-family: Arial, sans-serif;
+    /* Tipo de fuente para el texto del encabezado */
+}
+
+/*#tres_imagenes {
+    background-color: var(--negro);
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 100px;
+    animation: moveColors 5s infinite alternate;
+    border-image-slice: 1;
+  
+}*/
+#tres_imagenes .h2 {
+    color: white;
+    /* Cambiar el color del texto a blanco */
+}
+
+/*#publicidad {
+    background-color: var(--seis);
+    border-color: #FFA500;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+
+}*/
+
+#publicidad p {
+    color: #ffffff;
+    /* Color del texto */
+    font-family: Arial, sans-serif;
+    /* Tipo de fuente */
+    animation: moveColors 5s infinite alternate;
+    border-image-slice: 1;
 }
 
 /* Estilo para los enlaces del menú */
@@ -68,10 +144,41 @@ img {
     }
 }
 
+@keyframes moveColors {
+    0% {
+        border-image-source: linear-gradient(to right, #FF0000, #00FF00, #0000FF);
+    }
+
+    50% {
+        border-image-source: linear-gradient(to right, #0000FF, #FF0000, #00FF00);
+    }
+
+    100% {
+        border-image-source: linear-gradient(to right, #00FF00, #0000FF, #FF0000);
+    }
+}
+
+@keyframes shine {
+
+    to {
+        background-position: 200% center;
+    }
+}
+
+
 .card-img-top {
     transition: transform 0.3s ease-in-out;
 }
 
 .card-img-top:hover {
     transform: scale(1.05);
+}
+.card {
+    background-color: var(--negro); /* Fondo oscuro */
+    border: none; /* Sin borde */
+    color: var(--dies); /* Color del texto claro */
+}
+
+.card-img-top {
+    border-radius: 0; /* Sin bordes redondeados en las imágenes */
 }
