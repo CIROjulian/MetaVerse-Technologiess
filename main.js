@@ -13,7 +13,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 6390000
     },
@@ -28,7 +28,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 3060",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 6700000
     },
@@ -44,7 +44,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 5500000
     },
@@ -59,13 +59,13 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 3050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 5300000
     },
     {
         id: "computador-05",
-        titulo: "portatil ASUS Zenbook intel core i5 - 8GB - disco SSD 512GB",
+        titulo: "portatil ASUS Zenbook intel core i5 8GB disco SSD 512GB",
         imagen: "computadores/asus/asus_zenbook/asus_z01.jpg",
         categoria: {
             nombre: "computadores",
@@ -74,7 +74,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "8GB",
             targeta_grafica: "Integrada en el procesador",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 3900000
     },
@@ -90,7 +90,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4060",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 8900000
     },
@@ -105,11 +105,11 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 3050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 3700000
     },
-// lenovo
+    // lenovo
     {
         id: "computador-08",
         titulo: "portatil LENOVO LEGION 9 intel core i9 - 32GB - disco SSD 1TB",
@@ -121,7 +121,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "32GB",
             targeta_grafica: "GeForce RTX 4080",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 15900000
     },
@@ -136,7 +136,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "32GB",
             targeta_grafica: "GeForce RTX 4070",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 11500000
     },
@@ -151,7 +151,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "32GB",
             targeta_grafica: "GeForce RTX 4060",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 8400000
     },
@@ -167,7 +167,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4060",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 6700000
     },
@@ -182,7 +182,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "8GB",
             targeta_grafica: "GeForce RTX 2050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 3000000
     },
@@ -197,7 +197,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4070",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 9500000
     },
@@ -212,7 +212,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 512GB",
             memoria_ram: "16GB",
             targeta_grafica: "GeForce RTX 4050",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 4300000
     },
@@ -228,7 +228,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 2TB",
             memoria_ram: "32GB",
             targeta_grafica: "GeForce RTX 4090",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 17940000
     },
@@ -243,7 +243,7 @@ const productos = [
             capacidad_de_disco: "estado  solido SSD 1TB",
             memoria_ram: "32GB",
             targeta_grafica: "GeForce RTX 4070",
-            garantia:"12 meses"
+            garantia: "12 meses"
         },
         precio: 10950000
     },
@@ -256,13 +256,13 @@ const productos = [
         categoria: {
             nombre: "MOUSES",
             id: "ratones",
-            apto_para_mano:"disetra",
-            discancia_maxima:"180 centimetros",
-            sensor_optico:"8200 Dpi",
-            sistema_compatible:"windows",
-            conexion:"alambrica",
-            uso:"gaming",
-            no_de_botones:"20 botones",
+            apto_para_mano: "disetra",
+            discancia_maxima: "180 centimetros",
+            sensor_optico: "8200 Dpi",
+            sistema_compatible: "windows",
+            conexion: "alambrica",
+            uso: "gaming",
+            no_de_botones: "20 botones",
             color: "negro"
         },
         precio: 260000
@@ -274,13 +274,13 @@ const productos = [
         categoria: {
             nombre: "MOUSES",
             id: "ratones",
-            apto_para_mano:"disetra",
-            discancia_maxima:"180 centimetros",
-            sensor_optico:"8200 Dpi",
-            sistema_compatible:"windows",
-            conexion:"alambrica",
-            uso:"gaming",
-            no_de_botones:"6 botones",
+            apto_para_mano: "disetra",
+            discancia_maxima: "180 centimetros",
+            sensor_optico: "8200 Dpi",
+            sistema_compatible: "windows",
+            conexion: "alambrica",
+            uso: "gaming",
+            no_de_botones: "6 botones",
             color: "negro"
         },
         precio: 115000
@@ -294,21 +294,21 @@ const productos = [
             nombre: "teclados",
             id: "teclados",
             conexion: "alambrica",
-            sistema_compatible:"android, mac Os, windows",
-            tipo:"gaming"
+            sistema_compatible: "android, mac Os, windows",
+            tipo: "gaming"
         },
         precio: 550000
     },
     {
         id: "teclado-02",
-        titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista Negro",
-        imagen: "computadores\\teclado\\PRIMUS\\primus 01.jpg",
+        titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista",
+        imagen: "computadores\\teclado\\primus\\primus 01.jpg",
         categoria: {
             nombre: "teclados",
             id: "teclados",
             conexion: "alambrica",
-            sistema_compatible:"android, mac Os, windows",
-            tipo:"gaming"
+            sistema_compatible: "android, mac Os, windows",
+            tipo: "gaming"
         },
         precio: 250000
     },
@@ -320,25 +320,25 @@ const productos = [
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
-            conexion:"cable USB",
-            rango_de_frecuenca:" 20-20  ",
-            impedancia:"39  Omnhios",
-            garantia:"12 meses"
+            conexion: "cable USB",
+            rango_de_frecuenca: " 20-20  ",
+            impedancia: "39  Omnhios",
+            garantia: "12 meses"
         },
         precio: 765000
     },
     {
         id: "audifonos-02",
-        titulo: "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie X|S",
+        titulo: "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie",
         imagen: "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
-            conexion:"cable USB",
-            rango_de_frecuenca:" 20-40  ",
-            impedancia:"32  Omnhios",
-            garantia:"24 meses"
-            
+            conexion: "cable USB",
+            rango_de_frecuenca: " 20-40  ",
+            impedancia: "32  Omnhios",
+            garantia: "24 meses"
+
         },
         precio: 1180000
     },
@@ -349,12 +349,12 @@ const productos = [
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
-            conexion:"alambrica",
-            tipo:"Gaming",
-            conexion:"cable USB",
-            rango_de_frecuenca:"20 Hz-40 kHz ",
-            impedancia:"32  Omnhios",
-            garantia:"12 meses"
+            conexion: "alambrica",
+            tipo: "Gaming",
+            conexion: "cable USB",
+            rango_de_frecuenca: "20 Hz-40 kHz ",
+            impedancia: "32  Omnhios",
+            garantia: "12 meses"
         },
         precio: 1680000
     },
@@ -367,21 +367,21 @@ const productos = [
             nombre: "combos",
             id: "combos",
             no_de_productos: "4 productos",
-            garantia:"12 meses",
-            tonalidad_de_color:"negro"
+            garantia: "12 meses",
+            tonalidad_de_color: "negro"
         },
         precio: 110000
     },
     {
         id: "combos-02",
-        titulo: "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT 838",
+        titulo: "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT",
         imagen: "computadores\\combo gamer\\combo trust\\trust 01.jpg",
         categoria: {
             nombre: "combos",
             id: "combos",
             no_de_productos: "2 productos",
-            garantia:"12 meses",
-            tonalidad_de_color:"negro"
+            garantia: "12 meses",
+            tonalidad_de_color: "negro"
         },
         precio: 165000
     },
@@ -404,10 +404,10 @@ const productos = [
             nombre: "bases",
             id: "base",
             ancho: "38 centimetros",
-            no_ventiladores:"6 ventiladores",
+            no_ventiladores: "6 ventiladores",
             ajuste_de_altura: "si tiene ajuste de altura",
             fondo: "4 centimetros",
-            alto:"29 centimetros"
+            alto: "29 centimetros"
 
         },
         precio: 120000
@@ -420,10 +420,10 @@ const productos = [
             nombre: "bases",
             id: "base",
             ancho: "36.5 centimetros",
-            no_ventiladores:"2 ventiladores",
+            no_ventiladores: "2 ventiladores",
             ajuste_de_altura: "si tiene ajuste de altura",
             fondo: "3.8 centimetros",
-            alto:"26.5 centimetros"
+            alto: "26.5 centimetros"
         },
         precio: 84000
     },
@@ -508,15 +508,18 @@ const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
+let productosMostrados;
 
-document.addEventListener("DOMContentLoaded", function() {
-    const contenedorProductosTres = document.getElementById("contenedor-productos-tres");
+document.addEventListener("DOMContentLoaded", function () {
+    // Cargar todos los productos al principio
+    cargarProductos(productos);
 
     // Obtener solo los primeros tres productos
+    const contenedorProductosTres = document.getElementById("contenedor-productos-tres");
     const primerosTresProductos = productos.slice(0, 3);
 
     // Iterar sobre los primeros tres productos
-    primerosTresProductos.forEach(function(producto) {
+    primerosTresProductos.forEach(function (producto) {
         // Crear elementos HTML para mostrar el producto
         const productoDiv = document.createElement("div");
         productoDiv.classList.add("col-md-4", "mb-4", "text-center");
@@ -551,56 +554,51 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function cargarProductos(productosElegidos) {
-
+    productosMostrados = productosElegidos;
     contenedorProductos.innerHTML = "";
 
     productosElegidos.forEach(producto => {
-
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
-        <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-        <div class="producto-detalles">
-            <h3 class="producto-titulo">${producto.titulo}</h3>
-            <p class="producto-precio">${producto.precio}</p>
-            <button class="producto-agregar" id="${producto.id}">agregar</button>
-        </div>
-    `;
-
+            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+            <div class="producto-detalles">
+                <h3 class="producto-titulo">${producto.titulo}</h3>
+                <p class="producto-precio">${producto.precio}</p>
+                <button class="producto-agregar" id="${producto.id}">agregar</button>
+            </div>
+        `;
         contenedorProductos.append(div);
-    })
+    });
     actualizarBotonesAgregar();
 }
-cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
-
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
         e.currentTarget.classList.add("active");
 
+        const categoriaSeleccionada = e.currentTarget.id;
+        const productosCategoria = productos.filter(producto => producto.categoria.id === categoriaSeleccionada);
 
-        if (e.currentTarget.id != "todos") {
-            const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
-            tituloPrincipal.innerText = productoCategoria.categoria.nombre;
-            const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-            cargarProductos(productosBoton);
+        if (categoriaSeleccionada !== "todos") {
+            tituloPrincipal.innerText = productosCategoria[0].categoria.nombre;
+            cargarProductos(productosCategoria);
         } else {
             tituloPrincipal.innerText = "todos los productos";
             cargarProductos(productos);
         }
-    })
+    });
 });
 
 function actualizarBotonesAgregar() {
     botonesAgregar = document.querySelectorAll(".producto-agregar");
-
     botonesAgregar.forEach(boton => {
         boton.addEventListener("click", agregarAlCarrito);
     });
 }
-let productosEnCarrito;
 
+let productosEnCarrito;
 let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
 
 if (productosEnCarritoLS) {
@@ -612,22 +610,36 @@ if (productosEnCarritoLS) {
 
 function agregarAlCarrito(e) {
     const idBoton = e.currentTarget.id;
-    const productoAgregado = productos.find(producto => producto.id === idBoton);
+    const productoAgregado = productosMostrados.find(producto => producto.id === idBoton);
 
     if (productosEnCarrito.some(producto => producto.id === idBoton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
         productosEnCarrito[index].cantidad++;
-    }else {
+    } else {
         productoAgregado.cantidad = 1;
         productosEnCarrito.push(productoAgregado);
     }
 
     actualizarNumerito();
-
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
 
 function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
+}
+
+// Funciones para ordenar los productos por precio
+document.getElementById("ordenarMenorMayor").addEventListener("click", function () {
+    productosMostrados.sort((a, b) => a.precio - b.precio);
+    cargarProductos(productosMostrados);
+});
+
+document.getElementById("ordenarMayorMenor").addEventListener("click", function () {
+    productosMostrados.sort((a, b) => b.precio - a.precio);
+    cargarProductos(productosMostrados);
+});
+
+if (document.getElementById("ordenarMenorMayor").addEventListener("click")) {
+    
 }
