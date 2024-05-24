@@ -1,4 +1,3 @@
-// PRODUCTOS
 const productos = [
     //acer
     {
@@ -250,7 +249,7 @@ const productos = [
     {
         id: "mouse-01",
         titulo: "Mouse LOGITECH G Alámbrico Gaming G600 Negro",
-        imagen: "computadores\\raton\\Mouse LOGITECH G\\mouse L.02.jpg",
+        imagen: "computadores/raton/Mouse LOGITECH G/mouse L.02.jpg",
         categoria: {
             nombre: "MOUSES",
             id: "ratones",
@@ -268,7 +267,7 @@ const productos = [
     {
         id: "mouse-02",
         titulo: "Mouse PRIMUS Alambrico Gaming GLADIUS 8200T",
-        imagen: "computadores\\raton\\Mouse PRIMUS\\mouse p.01.jpg",
+        imagen: "computadores/raton/Mouse PRIMUS/mouse p.01.jpg",
         categoria: {
             nombre: "MOUSES",
             id: "ratones",
@@ -287,7 +286,7 @@ const productos = [
     {
         id: "teclado-01",
         titulo: "teclado LOGITECH alambrico Mecanico Gaming GPRO",
-        imagen: "computadores\\teclado\\logitech\\logi 01.jpg",
+        imagen: "computadores/teclado/logitech/logi 01.jpg",
         categoria: {
             nombre: "teclados",
             id: "teclados",
@@ -300,7 +299,7 @@ const productos = [
     {
         id: "teclado-02",
         titulo: "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista",
-        imagen: "computadores\\teclado\\primus\\primus 01.jpg",
+        imagen: "computadores/teclado/primus/primus 01.jpg",
         categoria: {
             nombre: "teclados",
             id: "teclados",
@@ -314,7 +313,7 @@ const productos = [
     {
         id: "audifonos-01",
         titulo: "Audífonos de Diadema LOGITECH G Inalámbricos Over Ear Gaming G935 7.1Negro",
-        imagen: "computadores\\audifonos gamer\\audifono logi\\au logi.01.jpg",
+        imagen: "computadores/audifonos gamer/audifono logi/au logi.01.jpg",
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
@@ -328,7 +327,7 @@ const productos = [
     {
         id: "audifonos-02",
         titulo: "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie",
-        imagen: "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
+        imagen: "computadores/audifonos gamer/audifonos astro/astro 01.jpg",
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
@@ -343,7 +342,7 @@ const productos = [
     {
         id: "audifonos-03",
         titulo: "Audífonos de Diadema JBL Alámbricos USB Over Ear Gaming Quantum One Negro",
-        imagen: "computadores\\audifonos gamer\\aufifonos jbl\\jbl 01.jpg",
+        imagen: "computadores/audifonos gamer/aufifonos jbl/jbl 01.jpg",
         categoria: {
             nombre: "audifonos",
             id: "audifonos",
@@ -360,7 +359,7 @@ const productos = [
     {
         id: "combos-01",
         titulo: "como Kalley alambrico teclado + Mouse + Audifonos + PadMouse Gaming",
-        imagen: "computadores\\combo gamer\\combo kalley\\kalley 01.jpg",
+        imagen: "computadores/combo gamer/combo kalley/kalley 01.jpg",
         categoria: {
             nombre: "combos",
             id: "combos",
@@ -373,7 +372,7 @@ const productos = [
     {
         id: "combos-02",
         titulo: "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT",
-        imagen: "computadores\\combo gamer\\combo trust\\trust 01.jpg",
+        imagen: "computadores/combo gamer/combo trust/trust 01.jpg",
         categoria: {
             nombre: "combos",
             id: "combos",
@@ -387,7 +386,7 @@ const productos = [
     {
         id: "base-01",
         titulo: "base refrigerate TRUST GTX YOZU Gaming",
-        imagen: "computadores\\accesorios\\base\\base 01.jpg",
+        imagen: "computadores/accesorios/base/base 01.jpg",
         categoria: {
             nombre: "bases",
             id: "base"
@@ -397,7 +396,7 @@ const productos = [
     {
         id: "base-02",
         titulo: "base refrigerante WATTANA 6 posiciones",
-        imagen: "computadores\\accesorios\\base 02\\bas 01.jpg",
+        imagen: "computadores/accesorios/base 02/bas 01.jpg",
         categoria: {
             nombre: "bases",
             id: "base",
@@ -413,7 +412,7 @@ const productos = [
     {
         id: "base-03",
         titulo: "base refrigerante STAR TEC 2 ventiladores 5 posiciones",
-        imagen: "computadores\\accesorios\\base 03\\ba.01.jpg",
+        imagen: "computadores/accesorios/base 03/ba.01.jpg",
         categoria: {
             nombre: "bases",
             id: "base",
@@ -429,7 +428,7 @@ const productos = [
     {
         id: "control-01",
         titulo: "contol RASER Gaming para celulares Android negro",
-        imagen: "computadores\\accesorios\\control celular\\con 01.jpg",
+        imagen: "computadores/accesorios/control celular/con 01.jpg",
         categoria: {
             nombre: "controles",
             id: "controles"
@@ -440,7 +439,7 @@ const productos = [
     {
         id: "control-02",
         titulo: "control HORI Switch alambrico Pikachu splid Pad",
-        imagen: "computadores\\accesorios\\control switch\\swi 01.jpg",
+        imagen: "computadores/accesorios/control switch/swi 01.jpg",
         categoria: {
             nombre: "controles",
             id: "controles",
@@ -452,7 +451,7 @@ const productos = [
     {
         id: "control-03",
         titulo: "control ACER nitro alambrico PC GAMING Negro",
-        imagen: "computadores\\accesorios\\controles\\control 01.jpg",
+        imagen: "computadores/accesorios/controles/control 01.jpg",
         categoria: {
             nombre: "controles",
             id: "controles",
@@ -465,7 +464,7 @@ const productos = [
     {
         id: "microfono-01",
         titulo: "microfono HYPERX alambrico USB iluminacion RGB",
-        imagen: "computadores\\accesorios\\microfono\\micro 01.jpg",
+        imagen: "computadores/accesorios/microfono/micro 01.jpg",
         categoria: {
             nombre: "microfonos",
             id: "microfonos",
@@ -478,7 +477,7 @@ const productos = [
     {
         id: "microfono-02",
         titulo: "microfono PRIMUS alambrico USB profecional con tripode",
-        imagen: "computadores\\accesorios\\micro 02\\micro.02.jpg",
+        imagen: "computadores/accesorios/micro 02/micro.02.jpg",
         categoria: {
             nombre: "microfonos",
             id: "microfonos",
@@ -492,7 +491,7 @@ const productos = [
     {
         id: "volante-01",
         titulo: "volante de carreras ps4|ps5|pc Apex negro",
-        imagen: "computadores\\accesorios\\volante\\vola 01.jpg",
+        imagen: "computadores/accesorios/volante/vola 01.jpg",
         categoria: {
             nombre: "volante",
             id: "volante",
@@ -501,103 +500,39 @@ const productos = [
         precio: 650000
     }
 ];
-const contenedorProductos = document.querySelector("#contenedor-productos");
-const botonesCategorias = document.querySelectorAll(".boton-categoria");
-const tituloPrincipal = document.querySelector("#titulo-principal");
-let botonesAgregar = document.querySelectorAll(".producto-agregar");
-const numerito = document.querySelector("#numerito");
-let productosMostrados;
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Cargar todos los productos al principio
-    cargarProductos(productos);
-});
+document.addEventListener('DOMContentLoaded', function () {
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get('id');
 
-function cargarProductos(productosElegidos) {
-    productosMostrados = productosElegidos;
-    contenedorProductos.innerHTML = "";
-
-    productosElegidos.forEach(producto => {
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-            <a href="individual.html?id=${producto.id}">
-                <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-            </a>
-            <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
-            </div>
+    const product = productos.find(p => p.id === productId);
+    if (product) {
+        document.getElementById('product-details').innerHTML = `
+            <h1>${product.titulo}</h1>
+            ${product.imagen ? `<img src="${product.imagen}" alt="${product.titulo}">` : ''}
+            <p>precio: $${product.precio.toLocaleString('es-CO')}</p>
+            <p>procesador: ${product.categoria.procesador}</p>
+            <p>capacidad de disco: ${product.categoria.capacidad_de_disco}</p>
+            <p>memoria RAM: ${product.categoria.memoria_ram}</p>
+            <p>tarjeta Grafica: ${product.categoria.targeta_grafica}</p>
+            <p>Garantia: ${product.categoria.garantia}</p>
+            <button onclick="addToCart('${product.id}')">Agregar al Carrito</button>
         `;
-        contenedorProductos.append(div);
-    });
-    actualizarBotonesAgregar();
-}
-
-botonesCategorias.forEach(boton => {
-    boton.addEventListener("click", (e) => {
-        botonesCategorias.forEach(boton => boton.classList.remove("active"));
-        e.currentTarget.classList.add("active");
-
-        const categoriaSeleccionada = e.currentTarget.id;
-        const productosCategoria = productos.filter(producto => producto.categoria.id === categoriaSeleccionada);
-
-        if (categoriaSeleccionada !== "todos") {
-            tituloPrincipal.innerText = productosCategoria[0].categoria.nombre;
-            cargarProductos(productosCategoria);
-        } else {
-            tituloPrincipal.innerText = "Todos los productos";
-            cargarProductos(productos);
-        }
-    });
+    } else {
+        document.getElementById('product-details').innerHTML = '<p>producto no encontrado</p>';
+    }
 });
 
-function actualizarBotonesAgregar() {
-    botonesAgregar = document.querySelectorAll(".producto-agregar");
-    botonesAgregar.forEach(boton => {
-        boton.addEventListener("click", agregarAlCarrito);
-    });
-}
+function addToCart(productId) {
+    let productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito")) || [];
+    const productoAgregado = productos.find(producto => producto.id === productId);
 
-let productosEnCarrito;
-let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
-
-if (productosEnCarritoLS) {
-    productosEnCarrito = JSON.parse(productosEnCarritoLS);
-    actualizarNumerito();
-} else {
-    productosEnCarrito = [];
-}
-
-function agregarAlCarrito(e) {
-    const idBoton = e.currentTarget.id;
-    const productoAgregado = productosMostrados.find(producto => producto.id === idBoton);
-
-    if (productosEnCarrito.some(producto => producto.id === idBoton)) {
-        const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+    if (productosEnCarrito.some(producto => producto.id === productId)) {
+        const index = productosEnCarrito.findIndex(producto => producto.id === productId);
         productosEnCarrito[index].cantidad++;
     } else {
         productoAgregado.cantidad = 1;
         productosEnCarrito.push(productoAgregado);
     }
-
-    actualizarNumerito();
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
-
-function actualizarNumerito() {
-    let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
-    numerito.innerText = nuevoNumerito;
-}
-
-// Funciones para ordenar los productos por precio
-document.getElementById("ordenarMenorMayor").addEventListener("click", function () {
-    productosMostrados.sort((a, b) => a.precio - b.precio);
-    cargarProductos(productosMostrados);
-});
-
-document.getElementById("ordenarMayorMenor").addEventListener("click", function () {
-    productosMostrados.sort((a, b) => b.precio - a.precio);
-    cargarProductos(productosMostrados);
-});
