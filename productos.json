@@ -2,10 +2,13 @@
     {
         "id": "computador-01",
         "titulo": "portatil acer nitro intel core i5 - 16GB RAM - disco SSD 1TB ",
-        "imagen1": "computadores/acer/acer_n/acer_ni03.jpg",
-        "imagen2": "computadores/acer/acer_n/acer_ni04.jpg",
-        "imagen3": "computadores/acer/acer_n/acer_ni05.jpg",
-        "imagen": "computadores/acer/acer_n/acer_ni01.jpg",
+         "imagen1":"computadores/acer/acer_n/acer_ni03.jpg",
+        "imagen": [
+            "computadores/acer/acer_n/acer_ni03.jpg",
+            "computadores/acer/acer_n/acer_ni04.jpg",
+            "computadores/acer/acer_n/acer_ni05.jpg",
+            "computadores/acer/acer_n/acer_ni01.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -41,13 +44,16 @@
     {
         "id": "computador-02",
         "titulo": "portatil acer nitro intel core i7 - 16GB - disco SSD 1TB",
-        "imagen": "computadores/acer/acer_nitro/acer_n01.jpg",
-        "imagen1": "computadores/acer/acer_nitro/acer_n02.jpg",
-        "imagen2": "computadores/acer/acer_nitro/acer_n03.jpg",
-        "imagen3": "computadores/acer/acer_nitro/acer_n04.jpg",
-        "imagen4": "computadores/acer/acer_nitro/acer_n05.jpg",
-        "imagen5": "computadores/acer/acer_nitro/acer_n06.jpg",
-        "imagen6": "computadores/acer/acer_nitro/acer_n07.jpg",
+        "imagen1":"computadores/acer/acer_nitro/acer_n01.jpg",
+        "imagen": [
+            "computadores/acer/acer_nitro/acer_n01.jpg",
+            "computadores/acer/acer_nitro/acer_n02.jpg",
+            "computadores/acer/acer_nitro/acer_n03.jpg",
+            "computadores/acer/acer_nitro/acer_n04.jpg",
+            "computadores/acer/acer_nitro/acer_n05.jpg",
+            "computadores/acer/acer_nitro/acer_n06.jpg",
+            "computadores/acer/acer_nitro/acer_n07.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -83,10 +89,16 @@
     {
         "id": "computador-03",
         "titulo": "portatil ASUS TUF intel core i7 - 16GB - disco SSD 512GB",
-        "imagen": "computadores/asus/asus_TUF/asus_tuf01.jpg",
-        "imagen1": "computadores/asus/asus_TUF/asus_tuf02.jpg",
-        "imagen2": "computadores/asus/asus_TUF/asus_tuf03.jpg",
-        "imagen3": "computadores/asus/asus_TUF/asus_tuf04.jpg",
+        "imagen1":"computadores/asus/asus_TUF/asus_tuf01.jpg",
+        "imagen": [
+            "computadores/asus/asus_TUF/asus_tuf01.jpg",
+            "computadores/asus/asus_TUF/asus_tuf02.jpg",
+            "computadores/asus/asus_TUF/asus_tuf03.jpg",
+            "computadores/asus/asus_TUF/asus_tuf04.jpg",
+            "computadores/acer/acer_nitro/acer_n05.jpg",
+            "computadores/acer/acer_nitro/acer_n06.jpg",
+            "computadores/acer/acer_nitro/acer_n07.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -123,11 +135,14 @@
     {
         "id": "computador-04",
         "titulo": "portatil ASUS Vivobook intel core i5 16GB disco SSD 512GB",
-        "imagen": "computadores/asus/asus_vivobook/asus01.jpg",
-        "imagen1": "computadores/asus/asus_vivobook/asus02.jpg",
-        "imagen2": "computadores/asus/asus_vivobook/asus03.jpg",
-        "imagen3": "computadores/asus/asus_vivobook/asus04.jpg",
-        "imagen4": "computadores/asus/asus_vivobook/asus05.jpg",
+        "imagen1":"computadores/asus/asus_vivobook/asus01.jpg",
+        "imagen": [
+            "computadores/asus/asus_vivobook/asus01.jpg",
+            "computadores/asus/asus_vivobook/asus02.jpg",
+            "computadores/asus/asus_vivobook/asus03.jpg",
+            "computadores/asus/asus_vivobook/asus04.jpg",
+            "computadores/asus/asus_vivobook/asus05.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -165,11 +180,14 @@
     {
         "id": "computador-05",
         "titulo": "portatil ASUS Zenbook intel core i5 8GB disco SSD 512GB",
-        "imagen": "computadores/asus/asus_zenbook/asus_z01.jpg",
-        "imagen1": "computadores/asus/asus_zenbook/asus_z02.jpg",
-        "imagen2": "computadores/asus/asus_zenbook/asus_z03.jpg",
-        "imagen3": "computadores/asus/asus_zenbook/asus_z04.jpg",
-        "imagen4": "computadores/asus/asus_zenbook/asus_z05.jpg",
+        "imagen1": "computadores/asus/asus_zenbook/asus_z01.jpg",
+        "imagen": [
+            "computadores/asus/asus_zenbook/asus_z01.jpg",
+            "computadores/asus/asus_zenbook/asus_z02.jpg",
+            "computadores/asus/asus_zenbook/asus_z03.jpg",
+            "computadores/asus/asus_zenbook/asus_z04.jpg",
+            "computadores/asus/asus_zenbook/asus_z05.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -206,11 +224,14 @@
     {
         "id": "computador-06",
         "titulo": "portatil HP OMEN intel core i7 - 16GB - disco SSD 1TB",
-        "imagen": "computadores/hp/hp_omen/hp_01.jpg",
-        "imagen1": "computadores/hp/hp_omen/hp_02.jpg",
-        "imagen2": "computadores/hp/hp_omen/hp_03.jpg",
-        "imagen3": "computadores/hp/hp_omen/hp_04.jpg",
-        "imagen4": "computadores/hp/hp_omen/hp_05.jpg",
+        "imagen1":  "computadores/hp/hp_omen/hp_01.jpg",
+        "imagen": [
+            "computadores/hp/hp_omen/hp_01.jpg",
+            "computadores/hp/hp_omen/hp_02.jpg",
+            "computadores/hp/hp_omen/hp_03.jpg",
+            "computadores/hp/hp_omen/hp_04.jpg",
+            "computadores/hp/hp_omen/hp_05.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -247,12 +268,15 @@
     {
         "id": "computador-07",
         "titulo": "portatil HP Victus intel core i5 - 16GB - disco SSD 512GB",
-        "imagen": "computadores/hp/hp_victus/hp_v01.jpg",
-        "imagen1": "computadores/hp/hp_victus/hp_v02.jpg",
-        "imagen2": "computadores/hp/hp_victus/hp_v03.jpg",
-        "imagen3": "computadores/hp/hp_victus/hp_v04.jpg",
-        "imagen4": "computadores/hp/hp_victus/hp_v05.jpg",
-        "imagen5": "computadores/hp/hp_victus/hp_v06.jpg",
+        "imagen1": "computadores/hp/hp_victus/hp_v01.jpg",
+        "imagen": [
+            "computadores/hp/hp_victus/hp_v01.jpg",
+            "computadores/hp/hp_victus/hp_v02.jpg",
+            "computadores/hp/hp_victus/hp_v03.jpg",
+            "computadores/hp/hp_victus/hp_v04.jpg",
+            "computadores/hp/hp_victus/hp_v05.jpg",
+            "computadores/hp/hp_victus/hp_v06.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -289,12 +313,15 @@
     {
         "id": "computador-08",
         "titulo": "portatil LENOVO LEGION 9 intel core i9 - 32GB - disco SSD 1TB",
-        "imagen": "computadores/lenovo/lenovo_lpro/lenovo_l01.jpg",
-        "imagen1": "computadores/lenovo/lenovo_lpro/lenovo_l02.jpg",
-        "imagen2": "computadores/lenovo/lenovo_lpro/lenovo_l03.jpg",
-        "imagen3": "computadores/lenovo/lenovo_lpro/lenovo_l04.jpg",
-        "imagen4": "computadores/lenovo/lenovo_lpro/lenovo_l05.jpg",
-        "imagen5": "computadores/lenovo/lenovo_lpro/lenovo_l06.jpg",
+        "imagen1":  "computadores/lenovo/lenovo_lpro/lenovo_l01.jpg",
+        "imagen": [
+            "computadores/lenovo/lenovo_lpro/lenovo_l01.jpg",
+            "computadores/lenovo/lenovo_lpro/lenovo_l02.jpg",
+            "computadores/lenovo/lenovo_lpro/lenovo_l03.jpg",
+            "computadores/lenovo/lenovo_lpro/lenovo_l04.jpg",
+            "computadores/lenovo/lenovo_lpro/lenovo_l05.jpg",
+            "computadores/lenovo/lenovo_lpro/lenovo_l06.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -331,6 +358,7 @@
     {
         "id": "computador-09",
         "titulo": "portatil LENOVO SLIM 7 intel core i9 32GB disco SSD 1TB",
+        "imagen1":  "computadores/lenovo/lenovo_lslim/lenovo01.jpg",
         "imagen": [
             "computadores/lenovo/lenovo_lslim/lenovo01.jpg",
             "computadores/lenovo/lenovo_lslim/lenovo02.jpg",
@@ -377,6 +405,7 @@
     {
         "id": "computador-10",
         "titulo": "portatil LENOVO YOGA intel core i9 - 32GB - disco SSD 1TB",
+        "imagen1":  "computadores/lenovo/lenovo_yoga/lenovo_y01.jpg",
         "imagen": [
             "computadores/lenovo/lenovo_yoga/lenovo_y01.jpg",
             "computadores/lenovo/lenovo_yoga/lenovo_y02.jpg",
@@ -421,7 +450,16 @@
     {
         "id": "computador-11",
         "titulo": "portatil MSI Cyborg intel core i7 - 16GB - disco SSD 512GB",
-        "imagen": "computadores/msi/mis_cyborg/msi_c01.jpg",
+        "imagen1": "computadores/msi/mis_cyborg/msi_c01.jpg",
+        "imagen": [
+            "computadores/msi/mis_cyborg/msi_c01.jpg",
+            "computadores/msi/mis_cyborg/msi_c02.jpg",
+            "computadores/msi/mis_cyborg/msi_c03.jpg",
+            "computadores/msi/mis_cyborg/msi_c04.jpg",
+            "computadores/msi/mis_cyborg/msi_c05.jpg",
+            "computadores/msi/mis_cyborg/msi_c06.jpg",
+            "computadores/msi/mis_cyborg/msi_c07.jpg"
+        ],
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -458,6 +496,7 @@
     {
         "id": "computador-12",
         "titulo": "portatil MSI GF63 intel core i5 - 8GB - disco SSD 512GB",
+        "imagen1": "computadores/msi/mis_gf63/mis_g01.jpg",
         "imagen": [
             "computadores/msi/mis_gf63/mis_g01.jpg",
             "computadores/msi/mis_gf63/mis_g02.jpg",
@@ -503,6 +542,7 @@
     {
         "id": "computador-13",
         "titulo": "portatil MSI KATANA intel core i9 - 16GB - disco SSD 1TB",
+        "imagen1":  "computadores/msi/mis_katana/msi_k01.jpg",
         "imagen": [
             "computadores/msi/mis_katana/msi_k01.jpg",
             "computadores/msi/mis_katana/msi_k02.jpg",
@@ -548,7 +588,17 @@
     {
         "id": "computador-14",
         "titulo": "portatil MSI THIN intel core i5 - 16GB - disco SSD 512GB",
-        "imagen": "computadores/msi/mis_thin/msi_t01.jpg",
+        "imagen1": "computadores/msi/mis_thin/msi_t01.jpg",
+        "imagen": [
+            "computadores/msi/mis_thin/msi_t01.jpg",
+            "computadores/msi/mis_thin/msi_t02.jpg",
+            "computadores/msi/mis_thin/msi_t03.jpg",
+            "computadores/msi/mis_thin/msi_t04.jpg",
+            "computadores/msi/mis_thin/msi_t05.jpg",
+            "computadores/msi/mis_thin/msi_t06.jpg",
+            "computadores/msi/mis_thin/msi_t07.jpg"
+        ],
+         
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -585,7 +635,15 @@
     {
         "id": "computador-15",
         "titulo": "portatil ROG STRIX intel core i9 - 32GB - disco SSD 2TB",
-        "imagen": "computadores/rog/rog_strix_scar/rog_s01.jpg",
+        "imagen1": "computadores/rog/rog_strix_scar/rog_s01.jpg",
+        "imagen": [
+            "computadores/rog/rog_strix_scar/rog_s01.jpg",
+            "computadores/rog/rog_strix_scar/rog_s02.jpg",
+            "computadores/rog/rog_strix_scar/rog_s03.jpg",
+            "computadores/rog/rog_strix_scar/rog_s04.jpg",
+            "computadores/rog/rog_strix_scar/rog_s05.jpg",
+            "computadores/rog/rog_strix_scar/rog_s06.jpg"
+        ],    
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -622,7 +680,15 @@
     {
         "id": "computador-16",
         "titulo": "portatil ROG Zephyrus intel core i9 - 32GB - disco SSD 1TB",
-        "imagen": "computadores/rog/rog_zephyrus/rog_z01.jpg",
+        "imagen1": "computadores/rog/rog_zephyrus/rog_z01.jpg",
+        "imagen": [
+            "computadores/rog/rog_zephyrus/rog_z01.jpg",
+            "computadores/rog/rog_zephyrus/rog_z02.jpg",
+            "computadores/rog/rog_zephyrus/rog_z03.jpg",
+            "computadores/rog/rog_zephyrus/rog_z04.jpg",
+            "computadores/rog/rog_zephyrus/rog_z05.jpg",
+            "computadores/rog/rog_zephyrus/rog_z06.jpg"
+        ],  
         "categoria": {
             "nombre": "computadores",
             "id": "computador",
@@ -659,7 +725,13 @@
     {
         "id": "mouse-01",
         "titulo": "Mouse LOGITECH G Alámbrico Gaming G600 Negro",
-        "imagen": "computadores\\raton\\Mouse LOGITECH G\\mouse L.02.jpg",
+        "imagen1": "computadores\\raton\\Mouse LOGITECH G\\mouse L.02.jpg",
+        "imagen": [
+            "computadores\\raton\\Mouse LOGITECH G\\mouse L.02.jpg",
+            "computadores\\raton\\Mouse LOGITECH G\\mouse L.03.jpg",
+            "computadores\\raton\\Mouse LOGITECH G\\mouse L.04.jpg",
+            "computadores\\raton\\Mouse LOGITECH G\\mouse L.o1.jpg"
+        ], 
         "categoria": {
             "nombre": "MOUSES",
             "id": "ratones",
@@ -677,7 +749,15 @@
     {
         "id": "mouse-02",
         "titulo": "Mouse PRIMUS Alambrico Gaming GLADIUS 8200T",
-        "imagen": "computadores\\raton\\Mouse PRIMUS\\mouse p.01.jpg",
+        "imagen1": "computadores\\raton\\Mouse PRIMUS\\mouse p.01.jpg",
+        "imagen": [
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.01.jpg",
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.02.jpg",
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.03.jpg",
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.04}.jpg",
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.06}.jpg",
+            "computadores\\raton\\Mouse PRIMUS\\mouse p.05}.jpg"
+        ],
         "categoria": {
             "nombre": "MOUSES",
             "id": "ratones",
@@ -695,7 +775,13 @@
     {
         "id": "teclado-01",
         "titulo": "teclado LOGITECH alambrico Mecanico Gaming GPRO",
-        "imagen": "computadores\\teclado\\logitech\\logi 01.jpg",
+        "imagen1": "computadores\\teclado\\logitech\\logi 01.jpg",
+        "imagen": [
+            "computadores\\teclado\\logitech\\logi 01.jpg",
+            "computadores\\teclado\\logitech\\logi 02.jpg",
+            "computadores\\teclado\\logitech\\logi 03.jpg",
+            "computadores\\teclado\\logitech\\logi 04.jpg"
+        ],
         "categoria": {
             "nombre": "teclados",
             "id": "teclados",
@@ -708,7 +794,13 @@
     {
         "id": "teclado-02",
         "titulo": "Teclado PRIMUS Alámbrico Mecánico Gaming Ballista",
-        "imagen": "computadores\\teclado\\primus\\primus 01.jpg",
+        "imagen1": "computadores\\teclado\\primus\\primus 01.jpg",
+        "imagen": [
+            "computadores\\teclado\\primus\\primus 01.jpg",
+            "computadores\\teclado\\primus\\primus 02.jpg",
+            "computadores\\teclado\\primus\\primus 03.jpg",
+            "computadores\\teclado\\primus\\primus 04.jpg"
+        ],
         "categoria": {
             "nombre": "teclados",
             "id": "teclados",
@@ -721,7 +813,14 @@
     {
         "id": "audifonos-01",
         "titulo": "Audífonos de Diadema LOGITECH G Inalámbricos Over Ear Gaming G935 7.1Negro",
-        "imagen": "computadores\\audifonos gamer\\audifono logi\\au logi.01.jpg",
+        "imagen1": "computadores\\audifonos gamer\\audifono logi\\au logi.01.jpg",
+        "imagen": [
+            "computadores\\audifonos gamer\\audifono logi\\au logi.01.jpg",
+            "computadores\\audifonos gamer\\audifono logi\\au logi.02.jpg",
+            "computadores\\audifonos gamer\\audifono logi\\au logi03.jpg",
+            "computadores\\audifonos gamer\\audifono logi\\au logi.04.jpg",
+            "computadores\\audifonos gamer\\audifono logi\\au logi.05.jpg"
+        ],
         "categoria": {
             "nombre": "audifonos",
             "id": "audifonos",
@@ -735,7 +834,15 @@
     {
         "id": "audifonos-02",
         "titulo": "Audífonos de Diadema ASTRO Inalámbricos USB|Bluetooth On Ear A30 Gaming XBox Serie",
-        "imagen": "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
+        "imagen1": "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
+        "imagen": [
+            "computadores\\audifonos gamer\\audifonos astro\\astro 01.jpg",
+            "computadores\\audifonos gamer\\audifonos astro\\astro 02.jpg",
+            "computadores\\audifonos gamer\\audifonos astro\\astro 03.jpg",
+            "computadores\\audifonos gamer\\audifonos astro\\astro 04.jpg",
+            "computadores\\audifonos gamer\\audifonos astro\\astro 05.jpg",
+            "computadores\\audifonos gamer\\audifonos astro\\astro 06.jpg"
+        ],
         "categoria": {
             "nombre": "audifonos",
             "id": "audifonos",
@@ -749,7 +856,14 @@
     {
         "id": "audifonos-03",
         "titulo": "Audífonos de Diadema JBL Alámbricos USB Over Ear Gaming Quantum One Negro",
-        "imagen": "computadores\\audifonos gamer\\aufifonos jbl\\jbl 01.jpg",
+        "imagen1": "computadores\\audifonos gamer\\aufifonos jbl\\jbl 01.jpg",
+        "imagen": [
+            "computadores\\audifonos gamer\\aufifonos jbl\\jbl 01.jpg",
+            "computadores\\audifonos gamer\\aufifonos jbl\\jbl02.jpg",
+            "computadores\\audifonos gamer\\aufifonos jbl\\jbl03.jpg",
+            "computadores\\audifonos gamer\\aufifonos jbl\\jbl04.jpg",
+            "computadores\\audifonos gamer\\aufifonos jbl\\jbl05.jpg"
+        ],      
         "categoria": {
             "nombre": "audifonos",
             "id": "audifonos",
@@ -764,7 +878,14 @@
     {
         "id": "combos-01",
         "titulo": "como Kalley alambrico teclado + Mouse + Audifonos + PadMouse Gaming",
-        "imagen": "computadores\\combo gamer\\combo kalley\\kalley 01.jpg",
+        "imagen1":  "computadores\\combo gamer\\combo kalley\\kalley 01.jpg",
+        "imagen": [
+            "computadores\\combo gamer\\combo kalley\\kalley 01.jpg",
+            "computadores\\combo gamer\\combo kalley\\kalley 02.jpg",
+            "computadores\\combo gamer\\combo kalley\\kalley 03.jpg",
+            "computadores\\combo gamer\\combo kalley\\kalley 04.jpg",
+            "computadores\\combo gamer\\combo kalley\\kalley 05.jpg"
+        ],
         "categoria": {
             "nombre": "combos",
             "id": "combos",
@@ -777,7 +898,13 @@
     {
         "id": "combos-02",
         "titulo": "combo 2 en 1 TRUST teclado + Mouse alambrico Gaming GXT",
-        "imagen": "computadores\\combo gamer\\combo trust\\trust 01.jpg",
+        "imagen1": "computadores\\combo gamer\\combo trust\\trust 01.jpg",
+        "imagen": [
+            "computadores\\combo gamer\\combo trust\\trust 01.jpg",
+            "computadores\\combo gamer\\combo trust\\trust 02.jpg",
+            "computadores\\combo gamer\\combo trust\\trust 03.jpg",
+            "computadores\\combo gamer\\combo trust\\trust 04.jpg"
+        ],
         "categoria": {
             "nombre": "combos",
             "id": "combos",
@@ -790,7 +917,13 @@
     {
         "id": "base-01",
         "titulo": "base refrigerate TRUST GTX YOZU Gaming",
-        "imagen": "computadores\\accesorios\\base\\base 01.jpg",
+        "imagen1": "computadores\\accesorios\\base\\base 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\base\\base 01.jpg",
+            "computadores\\accesorios\\base\\base 02.jpg",
+            "computadores\\accesorios\\base\\base 03.jpg",
+            "computadores\\accesorios\\base\\base 04.jpg"
+        ],
         "categoria": {
             "nombre": "bases",
             "id": "base"
@@ -800,7 +933,12 @@
     {
         "id": "base-02",
         "titulo": "base refrigerante WATTANA 6 posiciones",
-        "imagen": "computadores\\accesorios\\base 02\\bas 01.jpg",
+        "imagen1":  "computadores\\accesorios\\base 02\\bas 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\base 02\\bas 01.jpg",
+            "computadores\\accesorios\\base 02\\bas 02.jpg",
+            "computadores\\accesorios\\base 02\\bas 03.jpg"
+        ],
         "categoria": {
             "nombre": "bases",
             "id": "base",
@@ -815,7 +953,12 @@
     {
         "id": "base-03",
         "titulo": "base refrigerante STAR TEC 2 ventiladores 5 posiciones",
-        "imagen": "computadores\\accesorios\\base 03\\ba.01.jpg",
+        "imagen1":  "computadores\\accesorios\\base 03\\ba.01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\base 03\\ba.01.jpg",
+            "computadores\\accesorios\\base 03\\ba.02}.jpg",
+            "computadores\\accesorios\\base 03\\ba.0.34.jpg"   
+        ],
         "categoria": {
             "nombre": "bases",
             "id": "base",
@@ -830,7 +973,14 @@
     {
         "id": "control-01",
         "titulo": "contol RASER Gaming para celulares Android negro",
-        "imagen": "computadores\\accesorios\\control celular\\con 01.jpg",
+        "imagen1": "computadores\\accesorios\\control celular\\con 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\control celular\\con 01.jpg",
+            "computadores\\accesorios\\control celular\\con 02.jpg",
+            "computadores\\accesorios\\control celular\\con 03.jpg",
+            "computadores\\accesorios\\control celular\\con 04.jpg",
+            "computadores\\accesorios\\control celular\\con 05.jpg"
+        ],
         "categoria": {
             "nombre": "controles",
             "id": "controles"
@@ -840,7 +990,14 @@
     {
         "id": "control-02",
         "titulo": "control HORI Switch alambrico Pikachu splid Pad",
-        "imagen": "computadores\\accesorios\\control switch\\swi 01.jpg",
+        "imagen1": "computadores\\accesorios\\control celular\\con 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\control switch\\swi 01.jpg",
+            "computadores\\accesorios\\control switch\\swi 02.jpg",
+            "computadores\\accesorios\\control switch\\swi 03.jpg",
+            "computadores\\accesorios\\control switch\\swi 04}.jpg",
+            "computadores\\accesorios\\control switch\\swi 05.jpg"
+        ],
         "categoria": {
             "nombre": "controles",
             "id": "controles",
@@ -852,7 +1009,13 @@
     {
         "id": "control-03",
         "titulo": "control ACER nitro alambrico PC GAMING Negro",
-        "imagen": "computadores\\accesorios\\controles\\control 01.jpg",
+        "imagen1": "computadores\\accesorios\\controles\\control 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\controles\\control 01.jpg",
+            "computadores\\accesorios\\controles\\control 02.jpg",
+            "computadores\\accesorios\\controles\\control 03.jpg",
+            "computadores\\accesorios\\controles\\control 04.jpg"
+        ],
         "categoria": {
             "nombre": "controles",
             "id": "controles",
@@ -864,7 +1027,15 @@
     {
         "id": "microfono-01",
         "titulo": "microfono HYPERX alambrico USB iluminacion RGB",
-        "imagen": "computadores\\accesorios\\microfono\\micro 01.jpg",
+        "imagen1": "computadores\\accesorios\\microfono\\micro 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\microfono\\micro 01.jpg",
+            "computadores\\accesorios\\microfono\\micro 02.jpg",
+            "computadores\\accesorios\\microfono\\micro 03.jpg",
+            "computadores\\accesorios\\microfono\\micro 04.jpg",
+            "computadores\\accesorios\\microfono\\micro 05.jpg",
+            "computadores\\accesorios\\microfono\\micro 063.jpg"
+        ],
         "categoria": {
             "nombre": "microfonos",
             "id": "microfonos",
@@ -877,7 +1048,15 @@
     {
         "id": "microfono-02",
         "titulo": "microfono PRIMUS alambrico USB profecional con tripode",
-        "imagen": "computadores\\accesorios\\micro 02\\micro.02.jpg",
+        "imagen1":"computadores\\accesorios\\micro 02\\micro.02.jpg",
+        "imagen": [
+            "computadores\\accesorios\\micro 02\\micro.02.jpg",
+            "computadores\\accesorios\\micro 02\\micro.03.jpg",
+            "computadores\\accesorios\\micro 02\\micro.04.jpg",
+            "computadores\\accesorios\\micro 02\\micro.05.jpg",
+            "computadores\\accesorios\\micro 02\\micro.01.jpg",
+            "computadores\\accesorios\\micro 02\\micro.065.jpg"
+        ],
         "categoria": {
             "nombre": "microfonos",
             "id": "microfonos",
@@ -890,7 +1069,14 @@
     {
         "id": "volante-01",
         "titulo": "volante de carreras ps4|ps5|pc Apex negro",
-        "imagen": "computadores\\accesorios\\volante\\vola 01.jpg",
+        "imagen1": "computadores\\accesorios\\volante\\vola 01.jpg",
+        "imagen": [
+            "computadores\\accesorios\\volante\\vola 01.jpg",
+            "computadores\\accesorios\\volante\\vola 02.jpg",
+            "computadores\\accesorios\\volante\\vola 03.jpg",
+            "computadores\\accesorios\\volante\\vola 04}.jpg",
+            "computadores\\accesorios\\volante\\vola 052.jpg"
+        ],
         "categoria": {
             "nombre": "volante",
             "id": "volante",

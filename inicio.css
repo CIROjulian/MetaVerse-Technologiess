@@ -10,6 +10,67 @@
     --nueve: #a2a0d7;
     --dies: #d0cdee;
     --negro: #1e1e1e;
+    --clr-main: #6148c7;
+    --clr-main-light: #150849;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+    --dies: #d0cdee;
+    --dos: #FF0000;
+    --clr-primary: #0f0f0f;
+    /* Color de fondo principal */
+    --clr-secondary: #1a1a1a;
+    /* Color de fondo secundario */
+    --clr-accent: #FF4500;
+    /* Color de acento */
+    --clr-white: #ececec;
+    --clr-gray: #8a8a8a;
+    --clr-red: #961818;
+    --clr-green: #2ecc71;
+    --clr-blue: #3498db;
+    --clr-purple: #8e44ad;
+}
+
+header {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: var(--clr-white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: var(--clr-accent);
 }
 
 .poetsen-one-regular {
@@ -36,18 +97,6 @@ footer p {
     color: white;
 }
 
-header {
-    background-color: #333;
-
-    color: #fff;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-}
 
 /* Estilo para el contenido debajo del header */
 body {
@@ -98,7 +147,7 @@ body {
 }
 
 /* Estilo para los enlaces del menú */
-nav ul {
+/* nav ul {
     margin: 0;
     padding: 5;
     list-style-type: none;
@@ -113,7 +162,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 img {
     width: 200px;
@@ -173,18 +222,85 @@ img {
 .card-img-top:hover {
     transform: scale(1.05);
 }
+
 .card {
-    background-color: var(--negro); /* Fondo oscuro */
-    border: none; /* Sin borde */
-    color: var(--dies); /* Color del texto claro */
+    background-color: var(--negro);
+    /* Fondo oscuro */
+    border: none;
+    /* Sin borde */
+    color: var(--dies);
+    /* Color del texto claro */
 }
 
 .card-img-top {
-    border-radius: 0; /* Sin bordes redondeados en las imágenes */
+    border-radius: 0;
+    /* Sin bordes redondeados en las imágenes */
 }
+
 #melos {
     background-color: rgba(0, 0, 0, 0.5) !important;
     color: white !important;
     padding: 20px !important;
-    border-radius: 20px; /* Bordes redondeados */
+    border-radius: 20px;
+    /* Bordes redondeados */
 }
+
+/* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a, nav ul li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li button:hover {
+    background-color: #111;
+}
+
+nav ul li.dropdown {
+    position: relative;
+}
+
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul .submenu li {
+    float: none;
+}
+
+nav ul .submenu li button {
+    width: 100%;
+    text-align: left;
+}
+
+nav ul li.dropdown:hover .submenu {
+    display: block;
+} */
+.mi-lista a {
+    color: var(--clr-white); /* Cambia el color del texto del enlace a rojo (#ff0000) */
+    text-decoration: none; /* Quita la subrayado del enlace */
+  }
+  
+  /* Elimina cualquier subrayado incluso cuando el puntero del ratón está sobre el enlace */
+  .mi-lista a:hover {
+    text-decoration: none; /* Asegura que no haya subrayado al pasar el mouse sobre el enlace */
+  }

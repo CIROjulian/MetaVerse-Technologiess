@@ -77,7 +77,7 @@ a {
     grid-template-columns: 1fr 4fr;
     background-color: var(--clr-main);
 }
-aside{ /* Corrección: Cambiado "anside" por "aside" */
+aside{
     padding: 3rem;
     padding-right: 0;
     color: var(--clr-white);
