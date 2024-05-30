@@ -1,0 +1,98 @@
+:root {
+    --uno: #007BFF;
+    --dos: #FF0000;
+    --tres: #FFA500;
+    --cuatro: #333333;
+    --cinco: #120f75;
+    --seis: #2a217f;
+    --siete: #4835a3;
+    --ocho: #7469c0;
+    --nueve: #a2a0d7;
+    --dies: #d0cdee;
+    --negro: #1e1e1e;
+    --clr-main: #6148c7;
+    --clr-main-light: #150849;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+    --dies: #d0cdee;
+    --dos: #FF0000;
+    --clr-primary: #0f0f0f;
+    /* Color de fondo principal */
+    --clr-secondary: #1a1a1a;
+    /* Color de fondo secundario */
+    --clr-accent: #FF4500;
+    /* Color de acento */
+    --clr-white: #ececec;
+    --clr-gray: #8a8a8a;
+    --clr-red: #961818;
+    --clr-green: #2ecc71;
+    --clr-blue: #3498db;
+    --clr-purple: #8e44ad;
+}
+
+header{
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+header h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: var(--clr-white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: var(--clr-accent);
+}
+
+/* styles.css */
+#product-details {
+    text-align: center;
+    margin: 20px;
+}
+#product-details img {
+    max-width: 100%;
+    height: auto;
+}
+#product-details h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+#product-details p {
+    margin: 10px 0;
+}
+#product-details button {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
