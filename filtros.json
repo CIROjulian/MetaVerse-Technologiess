@@ -1,0 +1,19 @@
+[
+	{
+		"nombre": "computador",
+		"filtros": [
+			{
+				"nombre": "Marca",
+				"valor": "categoria.id"
+			},
+			{
+				"nombre": "Memoria RAM",
+				"valor": "categoria.memoria_ram"
+			},
+			{
+				"nombre": "Procesador",
+				"valor": "categoria.procesador"
+			}
+		]
+	}
+]
