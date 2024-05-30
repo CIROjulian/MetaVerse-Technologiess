@@ -121,6 +121,64 @@ function mostrarCategoria() {
         tituloPrincipal.innerText = productosCategoria[0].categoria.nombre;
     }
 }
+// document.addEventListener("DOMContentLoaded", async function () {
+//     await fetchProductos();
+//     cargarProductos(productos);
+//     mostrarCategoria();
+//     generarFiltros();
+// });
+
+// function generarFiltros() {
+//     const marcas = [...new Set(productos.map(producto => producto.categoria.marca_targeta))];
+//     const procesadores = [...new Set(productos.map(producto => producto.categoria.procesador))];
+//     const memoriasRAM = [...new Set(productos.map(producto => producto.categoria.memoria_ram))];
+//     const almacenamientos = [...new Set(productos.map(producto => producto.categoria.capacidad_de_disco))];
+
+//     const brandFilter = document.getElementById('brandFilter');
+//     const processorFilter = document.getElementById('processorFilter');
+//     const ramFilter = document.getElementById('ramFilter');
+//     const storageFilter = document.getElementById('storageFilter');
+
+//     marcas.forEach(marca => {
+//         const li = document.createElement('li');
+//         li.innerHTML = `<a class="dropdown-item" href="#" data-filter="marca" data-value="${marca}">${marca}</a>`;
+//         brandFilter.appendChild(li);
+//     });
+
+//     procesadores.forEach(procesador => {
+//         const li = document.createElement('li');
+//         li.innerHTML = `<a class="dropdown-item" href="#" data-filter="procesador" data-value="${procesador}">${procesador}</a>`;
+//         processorFilter.appendChild(li);
+//     });
+
+//     memoriasRAM.forEach(memoria => {
+//         const li = document.createElement('li');
+//         li.innerHTML = `<a class="dropdown-item" href="#" data-filter="memoria_ram" data-value="${memoria}">${memoria}</a>`;
+//         ramFilter.appendChild(li);
+//     });
+
+//     almacenamientos.forEach(almacenamiento => {
+//         const li = document.createElement('li');
+//         li.innerHTML = `<a class="dropdown-item" href="#" data-filter="almacenamiento" data-value="${almacenamiento}">${almacenamiento}</a>`;
+//         storageFilter.appendChild(li);
+//     });
+
+//     document.querySelectorAll('.dropdown-item').forEach(item => {
+//         item.addEventListener('click', (e) => {
+//             e.preventDefault();
+//             const filterType = e.currentTarget.getAttribute('data-filter');
+//             const filterValue = e.currentTarget.getAttribute('data-value');
+//             filtrarProductos(filterType, filterValue);
+//         });
+//     });
+// }
+
+// function filtrarProductos(tipo, valor) {
+//     const productosFiltrados = productos.filter(producto => {
+//         return producto.categoria[tipo] === valor;
+//     });
+//     cargarProductos(productosFiltrados);
+// }
 
 // function mostrarCategoria() {
 //     const params = new URLSearchParams(window.location.search);
